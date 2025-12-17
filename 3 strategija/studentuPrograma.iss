@@ -15,7 +15,7 @@ AppId={{80138E86-E62B-4CDA-A514-8F8491566A2A}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppPublisher={#MyAppPublisher}
-DefaultDirName={commonpf}\VU\Akvile.Beinoriute
+DefaultDirName={commonpf}\VU\Akvile-Beinoriute
 ; PAKEISKITE: Vardenis-Pavardenis į savo vardą-pavardę
 
 DefaultGroupName=VU\Akvile-Beinoriute
@@ -41,10 +41,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 ; PAKEISKITE: Source kelią į savo sukompiliuotos programos vietą
 ; SVARBU: programa.exe jau turi įterptą manifest su requireAdministrator
 Source: "x64\Release\3 strategija.exe"; DestDir: "{app}"; Flags: ignoreversion
-; Jei turite papildomų failų (pvz., kursiokai.txt), pridėkite juos:
-; Source: "Release\kursiokai.txt"; DestDir: "{app}"; Flags: ignoreversion
-; Source: "Release\*.dll"; DestDir: "{app}"; Flags: ignoreversion
-; NEBEREIKIA manifest failo atskirai - jis jau įterptas į .exe
+Source: "C:\Users\akvil\OneDrive\Desktop\koduxai\objektinis\1 uzduotis\vo2\git\trecias\3 strategija\Data\stud100.txt"; DestDir: "{app}\Templates"; Flags: ignoreversion
 
 [Icons]
 ; Start Menu nuoroda
