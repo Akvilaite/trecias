@@ -7,7 +7,6 @@
 #define MyAppVersion "1.5"
 #define MyAppPublisher "Akvile Beinoriute"
 #define MyAppExeName "3 strategija.exe"
-; PAKEISKITE: Vardenis-Pavardenis į savo vardą-pavardę
 
 [Setup]
 ; SVARBU: Pakeiskite AppId į unikalų GUID
