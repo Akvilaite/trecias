@@ -39,3 +39,93 @@
 
 # debug information files
 *.dwo
+
+# ======================================
+# Visual Studio / .NET / C++
+# ======================================
+
+# Build rezultatai
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ARM/
+ARM64/
+
+# Visual Studio cache ir nustatymai
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# C++ specifiniai
+*.pdb
+*.idb
+*.ilk
+*.iobj
+*.ipdb
+*.tlog
+*.pch
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+
+# .NET / C# specifiniai
+*.nupkg
+*.snupkg
+*.deps.json
+*.runtimeconfig.json
+project.lock.json
+
+# Testų rezultatai
+TestResults/
+*.trx
+*.coverage
+
+# Publish output
+publish/
+
+# NuGet
+.nuget/
+packages/
+
+# Logai ir laikini failai
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# OS failai
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE (kiti)
+.vscode/
+.idea/
+
+# Installeriai (Inno Setup)
+installer/
+Output/
+*.iss~
+*.exe
+
+# Dokumentacijos generavimas (Doxygen)
+doxygen/html/
+doxygen/latex/
+
+# Konfigūracija / paslaptys
+appsettings.json
+appsettings.Development.json
+.env
+
+# Duomenų rezultatai (runtime)
+output/
+data/*.dat
